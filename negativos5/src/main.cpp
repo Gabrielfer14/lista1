@@ -6,7 +6,15 @@ const int SIZE = 5; // input size.
 
 int main(void)
 {
-    // TODO: Adicione aqui seu código.
-
+    int inteiros[5], k = 0, negativos = 0;
+    for(int i=0;i < 5; i++){
+        std::cin >> inteiros[i];
+    }
+    for(int i = 0; i < 5; i++){
+        if (inteiros[i] < 0){
+         negativos++;
+        }
+    }
+    cout << negativos ;
     return 0;
 }
