@@ -6,7 +6,7 @@ const int SIZE = 5; // input size.
 
 int main(void)
 {
-    int inteiros[5], k = 0, negativos = 0;
+    int inteiros[5], negativos = 0;
     for(int i=0;i < 5; i++){
         std::cin >> inteiros[i];
     }
