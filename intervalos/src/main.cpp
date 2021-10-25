@@ -16,13 +16,26 @@ using std::endl;
 #include <iomanip>
 using std::setprecision;
 
-double porcento(){
-
-}
 
 int main(void)
 {
-    // TODO: Adicione aqui a sua solução.
-
+int x, inter1,inter2,inter3,inter4,inter5;
+while  ( cin >> std::ws >> x) {
+    if( x > 0 && x < 25){
+        inter1++;
+    }
+    if( x >= 25 && x < 50){
+        inter2++;
+    }
+    if( x >= 50 && x < 75){
+        inter3++;
+    }
+    if( x >= 75 && x < 100){
+        inter4++;
+    }
+    else
+    inter5++;
+}
+cout >> inter1 >> inter2 >> inter3 >> inter4>> inter5>>; 
     return 0;
 }

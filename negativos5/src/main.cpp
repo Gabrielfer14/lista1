@@ -15,6 +15,6 @@ int main(void)
          negativos++;
         }
     }
-    cout << negativos ;
+    cout << negativos;
     return 0;
 }
