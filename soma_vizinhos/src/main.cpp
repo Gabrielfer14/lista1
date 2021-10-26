@@ -10,7 +10,25 @@ using std::endl;
 
 int main( void )
 {
-    // TODO: Adicione seu código aqui. 
-
+  int x ,y, m , n, b;
+    while  ( cin >> std::ws >> x >> y){
+      m = x;
+      n = y;
+      b = x;
+        if( n == 0)
+        cout << b << endl;
+        if (n > 0){
+            for(int i = 0; i < n; i++){
+                x += m++;
+            }
+            cout << x-b << endl;
+        }
+        if( n < 0) {
+            for(int j = 0;j > n; j--){
+                x += m--;
+            }
+            cout << x-b << endl;
+        }
+    }
     return 0;
 }
