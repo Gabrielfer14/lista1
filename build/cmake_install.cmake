@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/gabri/OneDrive/Área de Trabalho/lista1
+# Install script for directory: C:/Users/gabri/OneDrive/Área de Trabalho/lista1/soma_vizinhos
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/testes")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/SomaVizinhos")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
