@@ -1,5 +1,6 @@
 #include <iostream>
 #include <array>
+#include<algorithm>
 
 /*! 
  * Reverse de order of elements inside the array.
@@ -8,5 +9,11 @@
 template <std::size_t SIZE>
 void reverse( std::array< std::string, SIZE > & arr )
 {
-    /*codigo*/
+  std::array< std::string,SIZE > aux;
+  int j = 0;
+    for(int i = SIZE-1; i >= 0 ; i--){
+      aux[j] = arr[i];
+      j++;
+    }
+    std::swap(arr,aux);
 }
